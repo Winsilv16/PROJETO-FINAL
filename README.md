@@ -131,7 +131,38 @@ TRABALHO DE AUTORIA WEB
         
     
 </style>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+              
+                                                                                                          CURIOSIDADES
+              
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+</head>
+<body>
+    <header>
+        <h1><section>Curiosidades</section></h1>
+    </header>
+    <main>
 
+    </main>
+</body>
+</html>
+<style>
+    html{
+        background-color:gold
+    }
+    h1{
+        text-align: center;
+        background-color: blue;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        border-color: darkgreen;
+        
+    }
+</style>
 
 
 
