@@ -15,26 +15,30 @@ TRABALHO DE AUTORIA WEB
     <link rel="stylesheet" href="brasil.css">
 </head>
 <body>
-    <head> 
+    <header> 
         <nav>
             <ol>
                 <li><a href="titulos.html">Títulos</a></li>
                 <li><a href="maioresjogadores.html">Maiores Jogadores</a></li>
-                <h1><a href="index.html"><img src="Logo escudo seleção brasielira.png" alt="Escudo da Seleção Brasileira"></a><h1></h1>
+                <li><a href="index.html"><img src="imagens/Escudo seleção brasileira.png" alt="Escudo da Seleção Brasileira"></a></li>
                 <li><a href="curiosidades.html">Curiosidades</a></li>
                 <li><a href="questionario">Questionário</a></li>
                 
             </ol>
         </nav>
-    </head>
+    </header>
 </body>
 </html> 
 
 <style>
-
-    head{
+    
+    ol{
         background-color: gold;
-
+        list-style-type: none;
+        display: flex;
+    }
+    li{
+        text-align: center;
     }
 </style>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
