@@ -135,6 +135,7 @@ TRABALHO DE AUTORIA WEB
               
                                                                                                           CURIOSIDADES
               
+              
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -147,8 +148,22 @@ TRABALHO DE AUTORIA WEB
         <h1><section>Curiosidades</section></h1>
     </header>
     <main>
-
+        <ol>
+         <h3><section>A maior goleada promovida pelo Brasil foi na copa de 1950, quando venceu a Suécia por 7×1.<br>
+             Entretanto, este foi o mesmo placar da maior goleada sofrida na história: a derrota para a Alemanha na copa de 2014.</section></h3>
+        </ol>    
+        <ol>
+            <section>
+                <h3>A pior colocação do Brasil em uma Copa é a 14ª, que aconteceu em 1934.<br> Na ocasião, a seleção disputou uma única partida, contra a Espanha, e foi derrotada por 3 a 1.</h3>
+            </section>
+        </ol>
+        <ol>
+            <section>
+                <h3>A primeira Copa que teve números nas costas dos jogadores foi a do Brasil, em 1950.<br> Mesmo assim, a amarelinha número 10 só seria imortalizada oito anos depois, por Pelé, em 1958, na Suécia.</h3>
+            </section>
+        </ol>
     </main>
+    <footer><h4>Confideração Brasileira de Futebol - 2025</h4></footer>    
 </body>
 </html>
 <style>
@@ -162,8 +177,25 @@ TRABALHO DE AUTORIA WEB
         border-color: darkgreen;
         
     }
+    h2{
+        background-color: yellow;
+        border-color: green;
+        text-align: left;
+    }
+    footer{
+      font-size: larger;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: green;
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      padding: 10px 0;
+    }
 </style>
-
 
 
                                                                                                 
