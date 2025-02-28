@@ -3,45 +3,90 @@ TRABALHO DE AUTORIA WEB
 
 
 
+                                                     
+                                                     
+                                                     
                                                      HISTÓRIA
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A história da seleção braileira em Copas do Mundo</title>
-    <link rel="stylesheet" href="brasil.css">
+    <title>CBF - Página Inicial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #002776; /* Fundo azul */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #FFCC00; /* Cabeçalho amarelo */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-weight: bold;
+        }
+        .menu a {
+            text-decoration: none;
+            color: black;
+            margin: 0 5px;
+        }
+        footer {
+            background-color: #009739; /* Rodapé verde */
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .logo {
+            max-width: 150px;
+            margin: 0 20px;
+        }
+        .container {
+            margin: 50px auto;
+            color: white;
+        }
+        .main-image {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header> 
-        <nav>
-            <ol>
-                <li><a href="titulos.html">Títulos</a></li>
-                <li><a href="maioresjogadores.html">Maiores Jogadores</a></li>
-                <li><a href="index.html"><img src="imagens/Escudo seleção brasileira.png" alt="Escudo da Seleção Brasileira"></a></li>
-                <li><a href="curiosidades.html">Curiosidades</a></li>
-                <li><a href="questionario">Questionário</a></li>
-                
-            </ol>
+    <header>
+        <nav class="menu">
+            <a href="#titulos">Títulos</a>
+            <a href="#maiores-jogadores">Maiores Jogadores</a>
+        </nav>
+        <img src="LOGO_SELEÇÃO_BRASILEIRA.png" alt="Escudo da Seleção Brasileira" class="logo">
+        <nav class="menu">
+            <a href="#curiosidades">Curiosidades</a>
+            <a href="#questionario">Questionário</a>
         </nav>
     </header>
+    <div class="container">
+        <h1>A História da seleção brasileira em copas</h1>
+        <p>A Confederação Brasileira de Futebol (CBF) é o órgão responsável pela organização do futebol no Brasil.</p>
+        <img src="IMAGEM COPA.jpg" alt="Imagem representativa da Seleção Brasileira" class="main-image">
+    </div>
+    <footer>
+        <p> 2025 IFRN - Todos os direitos reservados</p>
+    </footer>
 </body>
-</html> 
+</html>
 
-<style>
-    
-    ol{
-        background-color: gold;
-        list-style-type: none;
-        display: flex;
-    }
-    li{
-        text-align: center;
-    }
-</style>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
