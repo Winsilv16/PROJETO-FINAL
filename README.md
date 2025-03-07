@@ -7,7 +7,8 @@ TRABALHO DE AUTORIA WEB
                                                      
                                                      
                                                      
-                                                     HISTÓRIA
+                                                     INTRODUÇÃO
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -67,26 +68,26 @@ TRABALHO DE AUTORIA WEB
 <body>
     <header>
         <nav class="menu">
-            <a href="#titulos">Títulos</a>
+            <a href="titulos.html">Títulos</a>
             <a href="#maiores-jogadores">Maiores Jogadores</a>
         </nav>
-        <img src="LOGO_SELEÇÃO_BRASILEIRA.png" alt="Escudo da Seleção Brasileira" class="logo">
+        <img src="imagens/LOGO_SELEÇÃO_BRASILEIRA.png" alt="Escudo da Seleção Brasileira" class="logo">
         <nav class="menu">
             <a href="#curiosidades">Curiosidades</a>
             <a href="#questionario">Questionário</a>
         </nav>
     </header>
     <div class="container">
-        <h1>A História da seleção brasileira em copas</h1>
+        <h1>Introdução ao nosso site</h1>
         <p>A Confederação Brasileira de Futebol (CBF) é o órgão responsável pela organização do futebol no Brasil.</p>
-        <img src="IMAGEM COPA.jpg" alt="Imagem representativa da Seleção Brasileira" class="main-image">
+        <img src="imagens/imagem seleção.jpg" alt="Imagem representativa da Seleção Brasileira" class="main-image">
+        <h2>Nosso site foi criado para informar e entreter todos que gostam da seleção canarinho.</h2>
     </div>
     <footer>
         <p> 2025 IFRN - Todos os direitos reservados</p>
     </footer>
 </body>
 </html>
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
