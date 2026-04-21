@@ -69,13 +69,13 @@ index.html
 
 ---
 
-## 👨‍💻 Autor
+## Desenvolvedores
 
 Projeto desenvolvido por **Winnicius da Silva Faustino de Alcântara e José Luan Ribeiro**
 
 ---
 
-## 📅 Ano
+## Ano de criação
 
 2025 - IFRN
 
