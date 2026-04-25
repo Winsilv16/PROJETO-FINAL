@@ -1,54 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Curiosidades</title>
 
     <style>
         body {
-            background-color: gold;
+            margin: 0;
+            background-color: #002776;
+            color: white;
+            font-family: Arial, sans-serif;
             text-align: center;
-            font-family: Arial;
         }
 
-        h1 {
-            background-color: blue;
+        header {
+            background-color: #FFCC00;
+            padding: 20px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
             color: white;
+        }
+
+        .container {
+            margin: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
         }
 
         footer {
-            background-color: green;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            background-color: #009739;
+            padding: 10px;
+            margin-top: 40px;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Curiosidades</h1>
+    <header>
 
-    <p>
-        A maior goleada promovida pelo Brasil foi na copa de 1950 (7x1 contra Suécia).
-    </p>
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="maiores_jogadores.html">Jogadores</a>
+            <a href="curiosidades.html">Curiosidades</a>
+        </nav>
 
-    <p>
-        A maior derrota foi contra a Alemanha em 2014 (7x1).
-    </p>
+    </header>
 
-    <p>
-        A pior colocação foi 14º lugar em 1934.
-    </p>
+    <div class="container">
 
-    <p>
-        A camisa 10 ficou famosa com Pelé em 1958.
-    </p>
+        <h1>Curiosidades</h1>
+
+        <p>O Brasil é a única seleção presente em todas as Copas do Mundo.</p>
+
+        <p>A maior derrota foi contra a Alemanha em 2014 (7x1).</p>
+
+        <p>A camisa 10 ficou famosa mundialmente com Pelé.</p>
+
+        <p>O Brasil possui 5 títulos mundiais.</p>
+
+    </div>
 
     <footer>
-        <p>Confederação Brasileira de Futebol - 2025</p>
+        <p>CBF - 2025</p>
     </footer>
 
 </body>
+
 </html>
