@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,45 +11,49 @@
             margin: 0;
             padding: 0;
             background-color: #002776;
-            text-align: center;
+            color: white;
             font-family: Arial, sans-serif;
+            text-align: center;
         }
 
         header {
             background-color: #FFCC00;
             padding: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         .menu {
             display: flex;
-            gap: 10px;
-            font-weight: bold;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
         }
 
         .menu a {
             text-decoration: none;
             color: black;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: white;
+        }
+
+        .container {
+            margin: 40px auto;
+            width: 90%;
+        }
+
+        .main-image {
+            width: 80%;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
         footer {
             background-color: #009739;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        .container {
-            margin: 50px auto;
-            color: white;
-        }
-
-        .main-image {
-            max-width: 80%;
-            border-radius: 10px;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -56,34 +61,30 @@
 <body>
 
     <header>
+
         <nav class="menu">
+            <a href="index.html">Início</a>
             <a href="titulos.html">Títulos</a>
-            <a href="maiores_jogadores.html">Maiores Jogadores</a>
-        </nav>
-
-        <h1>
-            <a href="index.html">
-                <img src="imagens/logo.png" alt="Escudo da seleção">
-            </a>
-        </h1>
-
-        <nav class="menu">
+            <a href="maiores_jogadores.html">Jogadores</a>
             <a href="curiosidades.html">Curiosidades</a>
         </nav>
+
     </header>
 
     <div class="container">
-        <h2>Introdução ao nosso site</h2>
+
+        <h1>Confederação Brasileira de Futebol</h1>
 
         <p>
-            A Confederação Brasileira de Futebol (CBF) é o órgão responsável pela organização do futebol no Brasil.
+            A CBF é responsável pela organização do futebol brasileiro.
         </p>
 
-         <img src="imagens/selecao.jpg" class="main-image">
+        <img src="imagens/selecao.jpg" alt="Seleção Brasileira" class="main-image">
 
         <h2>
-            Nosso site foi criado para informar e entreter seus acessantes sobre a seleção canarinho.
+            Nosso site foi criado para informar e entreter os fãs da seleção canarinho.
         </h2>
+
     </div>
 
     <footer>
@@ -91,4 +92,5 @@
     </footer>
 
 </body>
+
 </html>
