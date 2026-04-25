@@ -14,7 +14,6 @@
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
-
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -33,14 +32,11 @@
 
         .logo {
             width: 70px;
-            height: auto;
         }
 
         .menu {
             display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-
+            gap: 15px;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
@@ -48,13 +44,16 @@
 
         .menu a {
             text-decoration: none;
-            color: black;
+            color: white;
             font-weight: bold;
+            background-color: #009739;
+            padding: 8px 14px;
+            border-radius: 8px;
             transition: 0.3s;
         }
 
         .menu a:hover {
-            color: white;
+            background-color: #007a2f;
         }
 
         .container {
@@ -79,44 +78,37 @@
 
 <body>
 
-    <header>
+<header>
+    <div class="header-container">
 
-        <div class="header-container">
+        <a href="index.html">
+            <img src="imagens/logo.png" class="logo">
+        </a>
 
-            <a href="index.html">
-                <img src="imagens/logo.png" alt="Logo da CBF" class="logo">
-            </a>
-
-            <nav class="menu">
-                <a href="titulos.html">Títulos</a>
-                <a href="maiores_jogadores.html">Maiores Jogadores</a>
-                <a href="curiosidades.html">Curiosidades</a>
-            </nav>
-
-        </div>
-
-    </header>
-
-    <div class="container">
-
-        <h1>Confederação Brasileira de Futebol</h1>
-
-        <p>
-            A CBF é responsável pela organização do futebol brasileiro.
-        </p>
-
-        <img src="imagens/selecao.jpg" alt="Seleção Brasileira" class="main-image">
-
-        <h2>
-            Nosso site foi criado para informar e entreter os fãs da seleção canarinho.
-        </h2>
+        <nav class="menu">
+            <a href="titulos.html">Títulos</a>
+            <a href="maiores_jogadores.html">Maiores Jogadores</a>
+            <a href="curiosidades.html">Curiosidades</a>
+        </nav>
 
     </div>
+</header>
 
-    <footer>
-        <p>2025 IFRN - Todos os direitos reservados</p>
-    </footer>
+<div class="container">
+
+    <h1>Confederação Brasileira de Futebol</h1>
+
+    <p>A CBF é responsável pela organização do futebol brasileiro.</p>
+
+    <img src="imagens/selecao.jpg" class="main-image">
+
+    <h2>Nosso site foi criado para informar e entreter os fãs da seleção canarinho.</h2>
+
+</div>
+
+<footer>
+    <p>2025 IFRN - Todos os direitos reservados</p>
+</footer>
 
 </body>
-
 </html>
