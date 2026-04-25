@@ -1,4 +1,4 @@
-# 🇧🇷 Projeto Final - Site CBF
+# Projeto Final - Site CBF
 
 ## Sobre o projeto
 
