@@ -16,12 +16,22 @@
 
         header {
             background-color: #FFCC00;
-            padding: 20px;
+            padding: 15px 30px;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            width: 70px;
+            height: auto;
         }
 
         .menu {
             display: flex;
-            justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
@@ -54,12 +64,20 @@
 
     <header>
 
-        <nav class="menu">
-            <a href="index.html">Início</a>
-            <a href="titulos.html">Títulos</a>
-            <a href="maiores_jogadores.html">Jogadores</a>
-            <a href="curiosidades.html">Curiosidades</a>
-        </nav>
+        <div class="header-container">
+
+            <a href="index.html">
+                <img src="imagens/logo.png" alt="Logo da CBF" class="logo">
+            </a>
+
+            <nav class="menu">
+                <a href="index.html">Início</a>
+                <a href="titulos.html">Títulos</a>
+                <a href="maiores_jogadores.html">Jogadores</a>
+                <a href="curiosidades.html">Curiosidades</a>
+            </nav>
+
+        </div>
 
     </header>
 
