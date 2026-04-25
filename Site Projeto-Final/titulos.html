@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Títulos</title>
@@ -8,9 +9,9 @@
         body {
             margin: 0;
             background-color: #002776;
-            text-align: center;
             color: white;
-            font-family: Arial;
+            text-align: center;
+            font-family: Arial, sans-serif;
         }
 
         header {
@@ -18,19 +19,33 @@
             padding: 20px;
         }
 
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
         .menu a {
-            color: black;
-            margin: 10px;
             text-decoration: none;
+            color: black;
             font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: white;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
         }
 
         footer {
             background-color: #009739;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -38,23 +53,28 @@
 <body>
 
     <header>
-        <div class="menu">
+
+        <nav class="menu">
             <a href="index.html">Início</a>
+            <a href="titulos.html">Títulos</a>
             <a href="maiores_jogadores.html">Jogadores</a>
             <a href="curiosidades.html">Curiosidades</a>
-        </div>
+        </nav>
+
     </header>
 
     <h1>TÍTULOS</h1>
-    
+
     <h2>Taça da Copa do Mundo</h2>
-    <img src="imagens/taca_copa.png" width="200">
-    
-    <h2>Taça Jules Rimet (antiga)</h2>
-    <img src="imagens/taca_antiga.png" width="200">
+
+    <img src="imagens/taca_copa.png" alt="Taça da Copa">
+
+    <h2>Taça Jules Rimet</h2>
+
+    <img src="imagens/taca_antiga.png" alt="Taça Jules Rimet">
 
     <p>
-        A Confederação Brasileira de Futebol (CBF) é o órgão responsável pela organização do futebol no Brasil.
+        O Brasil é a seleção com mais títulos mundiais.
     </p>
 
     <footer>
@@ -62,4 +82,5 @@
     </footer>
 
 </body>
+
 </html>
