@@ -44,24 +44,6 @@ O site apresenta conteúdos sobre:
 
 ---
 
-## Como executar o projeto
-
-1. Baixe ou clone o repositório:
-
-```
-git clone <seu-repositorio>
-```
-
-2. Abra a pasta do projeto
-
-3. Execute o arquivo:
-
-```
-index.html
-```
-
----
-
 ## Observações
 
 * As imagens devem estar nas pastas corretas para o site funcionar corretamente
