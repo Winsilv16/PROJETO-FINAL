@@ -2,63 +2,57 @@
 
 ## Sobre o projeto
 
-Este projeto é um site desenvolvido como trabalho de autoria web, com o objetivo de **informar e entreter** sobre a Seleção Brasileira de Futebol.
+Este projeto foi desenvolvido como trabalho de autoria web, com o objetivo de **informar e entreter** sobre a Seleção Brasileira de Futebol.
 
-O site apresenta conteúdos sobre:
+O site apresenta conteúdos relacionados à história e conquistas da Seleção, incluindo:
 
-* História da CBF
-* Títulos da seleção
-* Curiosidades
-* Maiores jogadores
+- História da CBF
+- Títulos conquistados
+- Curiosidades
+- Maiores jogadores da Seleção Brasileira
 
 ---
+
+## Páginas do site
 
 ### Página Inicial
-
-* Introdução sobre a CBF
-* Imagem da seleção brasileira
-* Navegação entre páginas
+- Introdução sobre a CBF
+- Imagem da Seleção Brasileira
+- Menu de navegação para todas as páginas
 
 ### 🏆Títulos
+- Informações sobre as conquistas da Seleção Brasileira
+- Destaque para as Copas do Mundo
 
-* Informações sobre conquistas da seleção
-
-### Curiosidades 
-
-* Fatos interessantes sobre a história do Brasil nas Copas
+### Curiosidades
+- Fatos interessantes sobre a história do Brasil em Copas do Mundo
+- Curiosidades marcantes da Seleção
 
 ### Maiores Jogadores
-
-* Destaque para grandes nomes como:
-
-  * Pelé
-  * Ronaldo
-  * Neymar
-
----
-
-## Tecnologias utilizadas
-
-* HTML5
-* CSS (interno nas páginas)
+- Lista dos principais jogadores da história da Seleção Brasileira:
+  - Pelé
+  - Ronaldo Fenômeno
+  - Neymar
+  - e outros grandes nomes do futebol brasileiro
 
 ---
 
-## Observações
+## 💻 Tecnologias utilizadas
 
-* As imagens devem estar nas pastas corretas para o site funcionar corretamente
-* O projeto utiliza **CSS interno**, conforme solicitado
+- HTML5
+- CSS (interno em todas as páginas)
 
 ---
 
 ## Desenvolvedores
 
-Projeto desenvolvido por **Winnicius da Silva Faustino de Alcântara e José Luan Ribeiro**
+Projeto desenvolvido por:
+
+**Winnicius da Silva Faustino de Alcântara**  
+**José Luan Ribeiro**
 
 ---
 
 ## Ano de criação
 
 2025 - IFRN
-
----
