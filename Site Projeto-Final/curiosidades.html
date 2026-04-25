@@ -12,7 +12,6 @@
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
-
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -31,14 +30,11 @@
 
         .logo {
             width: 70px;
-            height: auto;
         }
 
         .menu {
             display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-
+            gap: 15px;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
@@ -46,13 +42,11 @@
 
         .menu a {
             text-decoration: none;
-            color: black;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .menu a:hover {
             color: white;
+            background-color: #009739;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-weight: bold;
         }
 
         .container {
@@ -79,85 +73,83 @@
             background-color: #009739;
             padding: 10px;
             margin-top: auto;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
+<header>
+    <div class="header-container">
 
-        <div class="header-container">
+        <a href="index.html">
+            <img src="imagens/logo.png" class="logo">
+        </a>
 
-            <a href="index.html">
-                <img src="imagens/logo.png" alt="Logo da CBF" class="logo">
-            </a>
-
-            <nav class="menu">
-                <a href="index.html">Início</a>
-                <a href="titulos.html">Títulos</a>
-                <a href="maiores_jogadores.html">Maiores Jogadores</a>
-            </nav>
-
-        </div>
-
-    </header>
-
-    <div class="container">
-
-        <h1>Curiosidades</h1>
-
-        <div class="curiosidade">
-            <img src="img/brasil-todas-copas.jpg" alt="Brasil em todas as Copas">
-            <p>O Brasil é a única seleção presente em todas as Copas do Mundo.</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/7x1.jpg" alt="7x1 Alemanha">
-            <p>A maior derrota foi contra a Alemanha em 2014 (7x1).</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/pele-camisa-10.jpeg" alt="Pelé camisa 10">
-            <p>A camisa 10 ficou famosa mundialmente com Pelé.</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/5copas.jpg" alt="5 Copas do Mundo">
-            <p>O Brasil possui 5 títulos mundiais.</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/maracanazo.jpg" alt="Maracanã 1950">
-            <p>A final da Copa de 1950 no Maracanã ficou conhecida como "Maracanazo".</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/Garrincha-dribles.jpg" alt="Garrincha dribles">
-            <p>Garrincha encantava o mundo com seus dribles imprevisíveis.</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/ronaldo-2002.jpg" alt="Ronaldo 2002">
-            <p>Ronaldo foi artilheiro e campeão da Copa de 2002.</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/neymar-artilheiro.jpg" alt="Neymar gols seleção">
-            <p>Neymar já é um dos maiores artilheiros da história da Seleção.</p>
-        </div>
-
-        <div class="curiosidade">
-            <img src="img/camisa-azul.jpg" alt="Camisa azul seleção">
-            <p>A camisa azul da Seleção é inspirada em Nossa Senhora Aparecida.</p>
-        </div>
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="titulos.html">Títulos</a>
+            <a href="maiores_jogadores.html">Maiores Jogadores</a>
+        </nav>
 
     </div>
+</header>
 
-    <footer>
-        <p>2025 IFRN - Todos os direitos reservados</p>
-    </footer>
+<div class="container">
+
+    <h1>Curiosidades</h1>
+
+    <div class="curiosidade">
+        <img src="img/brasil-todas-copas.jpg">
+        <p>O Brasil é a única seleção presente em todas as Copas do Mundo.</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/7x1.jpg">
+        <p>A maior derrota foi contra a Alemanha em 2014 (7x1).</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/pele-camisa-10.jpeg">
+        <p>A camisa 10 ficou famosa mundialmente com Pelé.</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/5copas.jpg">
+        <p>O Brasil possui 5 títulos mundiais.</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/maracanazo.jpg">
+        <p>A final da Copa de 1950 no Maracanã ficou conhecida como "Maracanazo".</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/Garrincha-dribles.jpg">
+        <p>Garrincha encantava o mundo com seus dribles imprevisíveis.</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/ronaldo-2002.jpg">
+        <p>Ronaldo foi artilheiro e campeão da Copa de 2002.</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/neymar-artilheiro.jpg">
+        <p>Neymar já é um dos maiores artilheiros da história da Seleção.</p>
+    </div>
+
+    <div class="curiosidade">
+        <img src="img/camisa-azul.jpg">
+        <p>A camisa azul da Seleção é inspirada em Nossa Senhora Aparecida.</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>2025 IFRN - Todos os direitos reservados</p>
+</footer>
 
 </body>
-
 </html>
